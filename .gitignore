@@ -26,3 +26,9 @@ dist-ssr
 # Environment
 *.env
 !*.env.example
+
+# map data
+**/assets/map
+
+# temp storage
+**/s3
