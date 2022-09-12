@@ -1,13 +1,12 @@
-import { useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import MapPage from "./pages/mapPage";
+import Map from "./pages/Map";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MapPage />} />
+          <Route path="/" element={<Map />} />
         </Routes>
       </BrowserRouter>
     </div>
